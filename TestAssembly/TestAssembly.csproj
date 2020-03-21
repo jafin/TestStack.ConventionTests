@@ -3,6 +3,7 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>TestAssembly</AssemblyName>
     <PackageId>TestAssembly</PackageId>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
