@@ -125,7 +125,7 @@
                         return "void";
                     default:
                     {
-                        return String.IsNullOrWhiteSpace(type.FullName) ? type.Name : type.FullName;
+                        return type.FullName.IsNullOrWhiteSpace() ? type.Name : type.FullName;
                     }
                 }
 
