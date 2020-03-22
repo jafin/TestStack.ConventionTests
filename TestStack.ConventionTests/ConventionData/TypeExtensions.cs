@@ -129,20 +129,21 @@
                     }
                 }
 
-            var sb = new StringBuilder(type.Name.Substring(0,
-                type.Name.IndexOf('`'))
-                );
-            sb.Append('<');
-            var first = true;
-            foreach (var t in type.GetGenericArguments())
-            {
-                if (!first)
-                    sb.Append(',');
-                sb.Append(t.ToTypeNameString());
-                first = false;
-            }
-            sb.Append('>');
-            return sb.ToString();
+            // TODO: Unreachable code: Deliberate?
+            // var sb = new StringBuilder(type.Name.Substring(0,
+            //     type.Name.IndexOf('`'))
+            //     );
+            // sb.Append('<');
+            // var first = true;
+            // foreach (var t in type.GetGenericArguments())
+            // {
+            //     if (!first)
+            //         sb.Append(',');
+            //     sb.Append(t.ToTypeNameString());
+            //     first = false;
+            // }
+            // sb.Append('>');
+            // return sb.ToString();
         }
     }
 }

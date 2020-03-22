@@ -26,6 +26,4 @@ after_build:
 
 artifacts:
   - path: '.\artifacts\*.nupkg'
-
-#  - cmd: appveyor PushArtifact "TestStack.ConventionTests.%GitVersion_NuGetVersion%.nupkg"
-#  - cmd: appveyor PushArtifact "TestStack.ConventionTests.Autofac.%GitVersion_NuGetVersion%.nupkg"
+  
